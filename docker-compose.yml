@@ -1,7 +1,7 @@
 version: '3'
 services:
   dbos:
-    image: mysql:5.7
+    image: invincibleakshit/mysql:5.7
     volumes:
       - mysql_storage_new:/var/lib/mysql
     restart: always
